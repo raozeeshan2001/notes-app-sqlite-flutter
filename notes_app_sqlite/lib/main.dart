@@ -21,7 +21,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
+        appBarTheme: AppBarTheme(
+            backgroundColor: Colors.purple[600], foregroundColor: Colors.white),
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        floatingActionButtonTheme: FloatingActionButtonThemeData(
+            backgroundColor: Colors.purple[600], foregroundColor: Colors.white),
         useMaterial3: true,
       ),
       home: HomeScreen(),

@@ -30,7 +30,7 @@ class AddNotes extends StatelessWidget {
     }
     return Scaffold(
       appBar: AppBar(
-        title: Text('Add Notes'),
+        title: Text('Notes Screen'),
       ),
       body: Container(
         padding: EdgeInsets.all(11),
